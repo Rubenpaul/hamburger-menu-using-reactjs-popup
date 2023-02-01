@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.img-lg {
+  height: 500px;
+  width: 750px;
+}
+@media screen and (max-width: 768px) {
+  .img-lg {
+    display: none;
+  }
+}
+.img-sm {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .img-sm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

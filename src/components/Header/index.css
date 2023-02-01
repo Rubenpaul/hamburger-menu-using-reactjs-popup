@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-bottom: 1px solid;
+}
+@media screen and (max-width: 768px) {
+  .nav-container {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
+.nav-img {
+  height: 38px;
+  width: 38px;
+}
+.hamburger-menu-btn {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+}
+.popup-view {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.popup-content {
+  width: 100%;
+  height: 100vh;
+}
+.close-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.close-icon-btn {
+  border: 0px;
+  background-color: transparent;
+}
+.menu-item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-left: 0px;
+}
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-text {
+  margin-left: 10px;
+}
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about-text {
+  margin-left: 10px;
+}
